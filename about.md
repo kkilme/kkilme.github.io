@@ -1,29 +1,37 @@
 ---
 layout: page
-title: About
+title: About me
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+<!-- <p class="message">
+  message class
+</p> -->
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+- **Name**: 조서진, Seojin Jo
+- **Nickname**: kkilme / kkirmi
 
-There are currently two themes built on Poole:
+- **Major**: 국민대학교, 소프트웨어 학부 / Kookmin-University, major in Computer Science
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+- **Hobby** : 방구석에서 하루종일 컴퓨터 앞에 앉아있기 ~~(게임하기)~~
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+- **My GitHub** : [https://github.com/kkilme](https://github.com/kkilme)
 
-## Setup
+# Origin of 'kkilme'
 
-Some fun facts about the setup of this project include:
+> *kkilme가 대체 무슨 뜻이야?*
 
-* Built for [Jekyll](https://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Atom](https://atom.io)
+kkilme라는 닉네임을 본 사람들중 일부는 이런 생각을 할지도 모른다. 다른 일반적인 닉네임들과 달리 kkilme는 영어 단어가 합성되거나 변형되어 만들어진 것도 아니고, 본명을 사용한 닉네임도 아니기 때문이다.
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+kkilme는 만들어진지 1년도 채 안된 닉네임이며, **나의 다른 닉네임에서 나온 것**이다. 그러므로 먼저 그 닉네임에 대해 알아 볼 필요가 있다. 그 닉네임이 무엇인지 이곳에서 밝히지는 않겠다. 이유는 밑에서 서술하겠다.
 
-Thanks for reading!
+그 닉네임을 만든 건 사실 내가 아니다. 내 친구나 우리 가족도 아니다. 놀랍게도 이 닉네임은 **어머니의 중학교 시절 반 친구가 어머니에게 붙혀준 별명**이다. 어째서 그런 별명을 붙인 것인지까지 밝히는 것은 어머님께 실례인 것 같아 밝히지 않겠다.
+
+아무튼, 그렇게 붙여진 별명이, 우리 가족 4명 모두가 사용하는 닉네임이 되었다. 더 정확히 말하면, 계정 등에 사용하는 ID가 되었다.
+
+하지만 가족 4명 모두가 같은 ID와 닉네임을 사용하는 것은 문제점이 있다. 먼저 새로운 홈페이지 등에 회원가입을 하려고 할 때, 다른 가족이 이미 썼을 수도 있다. 또, 아무 생각 없이 해당 ID로 로그인을 했는데 다른 가족의 계정일 수도 있는 것이다. 게다가, 닉네임으로 사용 시 인터넷에 해당 닉네임을 누군가가 검색하면 다른 가족들에 대한 정보가 같이 나올 수 있다.
+
+특히 마지막 문제점이 가장 마음에 걸렸다. 누군가가 나를 검색했는데 나의 가족들의 정보까지 알아버리는 것은 프라이버시적으로 큰 문제라고 생각했다. 위에서 내 예전 닉네임을 밝히지 않은 건 이 때문이다.
+
+그래서 나는 나만의 닉네임을 만들고자 했다. 그러나, 닉네임이 그리 쉽게 떠오르는 것은 아니였다. 그래서 이전 닉네임과 비슷하면서도 다른 kkilme라는 닉네임을 얼떨결에 사용했다. 얼떨결에 사용했다는 것은, 원래 계속 사용하려고자 한 것은 아니었다는 것이다. 닉네임의 생김새나 발음이 너무 _'kill me'_ 와 비슷해서 처음에는 바로 바꾸려고 했다. 
+
+하지만 적절한 닉네임을 떠올리지 못하는 사이 새롭게 계정을 만들 일은 늘어나기만 했다. 그래서 결국, 이 닉네임을 사용하게 된 것이다...
