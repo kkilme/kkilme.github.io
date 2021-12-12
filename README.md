@@ -3,10 +3,8 @@
 
 ## **Contents**
 
-- [kkilme's playground!](#kkilmes-playground)
-  - [**Contents**](#contents)
   - [**Start**](#start)
-  - [**Theme_Lanyon**](#theme_lanyon)
+  - [**Theme**](#theme_lanyon)
   - [**Font**](#font)
   - [**Additional_Functions**](#additional_functions)
     - [**Comment**](#comment)
