@@ -8,7 +8,7 @@ title: About me
 </p> -->
 
 - **Name**: 조서진, Seojin Jo
-- **Nickname**: kkilme / kkirmi
+- **Nickname**: kkilme
 
 - **Major**: 국민대학교, 소프트웨어 학부 / Kookmin-University, major in Computer Science
 
