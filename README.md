@@ -27,11 +27,11 @@
   2. 받아온 파일들을 kkilme.github.io 저장소에 덮어쓰기
 - 테마 색깔 지정
   
-  Lanyon에서는 기본적으로 8가지 테마 색을 제공한다.
+  Lanyon에서는 기본적으로 8가지 테마 색을 제공
   
   ![Available theme classes](https://f.cloud.github.com/assets/98681/1817044/e5b0ec06-6f68-11e3-83d7-acd1942797a1.png)
 
-  나는 초록빛이 나는 theme-base-0b를 사용하기로 했다. 이를 적용시키기 위해서는 간단히 `default.html` 파일에서 
+  초록빛이 나는 theme-base-0b를 사용하기로 함. 이를 적용시키기 위해서는 간단히 `default.html` 파일에서 
   ```html
   <body>
   ```
@@ -39,7 +39,7 @@
   ```html
   <body class="theme-base-0b">
   ```
-  와 같이 수정해주면 된다.
+  와 같이 수정.
 
 ## **Font**
 - 영어 폰트는 Lanyon 테마가 기본적으로 제공하는 폰트 사용
