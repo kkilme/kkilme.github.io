@@ -22,10 +22,24 @@
 ## **Theme_Lanyon**
 - 무료 테마를 볼 수 있는 <https://jekyllthemes.io/free> 및 <http://jekyllthemes.org/> 에서 다양한 테마를 둘러봄
 - 하지만 교수님께서 예시로 사용하신 **Lanyon 테마가 가장 깔끔하고 사이드바(sidebar)도 마음에 들어** 사용하게 됨.
-
-- ### Lanyon 설치 과정
+- Lanyon 설치 과정
   1. [Lanyon Repository](https://github.com/poole/lanyon) 를 git clone을 활용해 로컬 저장소로 받아오기
-  2. 받아온 파일들을 kkilme.github.io 로컬 저장소에 덮어쓰기
+  2. 받아온 파일들을 kkilme.github.io 저장소에 덮어쓰기
+- 테마 색깔 지정
+  
+  Lanyon에서는 기본적으로 8가지 테마 색을 제공한다.
+  
+  ![Available theme classes](https://f.cloud.github.com/assets/98681/1817044/e5b0ec06-6f68-11e3-83d7-acd1942797a1.png)
+
+  나는 초록빛이 나는 theme-base-0b를 사용하기로 했다. 이를 적용시키기 위해서는 간단히 `default.html` 파일에서 
+  ```html
+  <body>
+  ```
+  부분을
+  ```html
+  <body class="theme-base-0b">
+  ```
+  와 같이 수정해주면 된다.
 
 ## **Font**
 - 영어 폰트는 Lanyon 테마가 기본적으로 제공하는 폰트 사용
