@@ -1,7 +1,7 @@
 # Setup
 title:               kkilme's playground
 tagline:             Place for rest
-description:         'Thanks for visiting my blog! Feel free to look around.'
+description:         'Thanks for visiting my playground! Feel free to look around.'
 url:                 https://kkilme.github.io/
 baseurl:             ''
 paginate:            5
