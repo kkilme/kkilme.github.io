@@ -19,8 +19,15 @@ plugins:
 
 # Custom vars
 version:             1.1.0
-google_analytics_id: G-P71SWHVVE8
+google_analytics_id: "G-P71SWHVVE8"
 comment : 
   provider :         "disqus"
   disqus :
       shortname :    "kkil-blog"
+
+analytics:
+  provider               : "google-gtag" 
+                          # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id          : "G-P71SWHVVE8"
+    anonymize_ip         : # true, false (default)
