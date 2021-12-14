@@ -15,6 +15,7 @@ title: About my Blog (README.md)
   - [**Additional_Functions**](#additional_functions)
     - [**Comment**](#comment)
     - [**favicon**](#favicon)
+    - [**Google Analytics**](#google-analytics)
 
 ## **Start**
 - **Github Page 사용**
@@ -84,6 +85,27 @@ title: About my Blog (README.md)
     ```
   3. disqus 홈페이지에서 Universal Code 복사 후 적절히 수정하여 `post.html`에 반영
 
+  ```html
+    <h2>Comments</h2>
+    <div id="disqus_thread"></div>
+    <script>
+        let PAGE_URL = "{{site.url}}{{page.url}}"
+        let PAGE_IDENTIFIER = "{{page.url}}"
+        var disqus_config = function () {
+        this.page.url = PAGE_URL;  
+        this.page.identifier = PAGE_IDENTIFIER; 
+        };
+        
+        (function() {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://kkil-blog.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    ```
+
 ### **favicon**
 
 <p align = "center">
@@ -96,3 +118,11 @@ favicon을 적용시키는 코드는 `head.html`파일의 아래와 같은 부�
 ```html
 <link rel="shortcut icon" href="{{ '/public/favicon.ico' | absolute_url }}">
 ```
+
+### **Google Analytics**
+
+<p align = "center">
+    <img src= "https://user-images.githubusercontent.com/80762534/146069518-e2859a19-1e7f-4636-8b20-c78f2958ab8e.PNG">
+</p>
+
+추가하는 과정은 [포스트](https://kkilme.github.io//blog/2021/12/14/Google-Analytics/)로 작성함.

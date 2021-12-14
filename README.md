@@ -9,6 +9,7 @@
   - [**Additional_Functions**](#additional_functions)
     - [**Comment**](#comment)
     - [**favicon**](#favicon)
+    - [**Google Analytics**](#google-analytics)
 
 ## **Start**
 - **Github Page 사용**
@@ -112,3 +113,11 @@ favicon을 적용시키는 코드는 `head.html`파일의 아래와 같은 부�
 ```html
 <link rel="shortcut icon" href="{{ '/public/favicon.ico' | absolute_url }}">
 ```
+
+### **Google Analytics**
+
+<p align = "center">
+    <img src= "https://user-images.githubusercontent.com/80762534/146069518-e2859a19-1e7f-4636-8b20-c78f2958ab8e.PNG">
+</p>
+
+추가하는 과정은 [포스트](https://kkilme.github.io//blog/2021/12/14/Google-Analytics/)로 작성함.

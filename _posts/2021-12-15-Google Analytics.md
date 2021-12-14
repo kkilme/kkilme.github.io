@@ -11,7 +11,7 @@ comments : true
 
 오늘은 github page로 만든 내 블로그에 google analytics를 추가하는 과정을 포스팅하고자 한다.
 
-## 1. **[Google Anaytics](https://analytics.google.com/analytics/web/#/) 홈페이지에서 계정 생성**
+## 1. **[Google Analytics](https://analytics.google.com/analytics/web/#/) 홈페이지에서 계정 생성**
  <p align = "center">
     <img src= "https://user-images.githubusercontent.com/80762534/146060015-1f505990-8046-4b7a-be23-f836003dd3ef.PNG">
 </p>
@@ -37,7 +37,7 @@ comments : true
     <img src= "https://user-images.githubusercontent.com/80762534/146061502-363258ab-6009-4ab8-8681-e10eb494b04c.PNG">
 </p>
 
-  위 과정을 완료하면 위와 같이 데이터 스트림이 생성된다. 여기서 측정 ID를 복사한다. 복사한 측정 ID를 `config.yml` 파일에 다음과 같이 추가한다.
+  위 과정을 완료하면 위와 같이 데이터 스트림이 생성된다. 여기서 측정 ID를 복사한다. 복사한 측정 ID를 `_config.yml` 파일에 다음과 같이 추가한다.
 
   ```yml
   google_analytics_id: G-P71SWHVVE8
@@ -49,7 +49,7 @@ comments : true
 
   ... 라고 생각했지만 생각대로 작동하지 않아서 수십분간의 구글링을 통해 해결책을 찾았다.
 
-  `.config.yml`에 다음과 같은 코드를 추가했다.
+  `_config.yml`에 다음과 같은 코드를 추가했다.
 
   ```yml
   analytics:
@@ -92,7 +92,12 @@ comments : true
 
 수십분의 구글링 끝에 드디어 적용에 성공했다. 이제 내 블로그에 직접 한번 들어가면, 구글 애널리틱스 보고서의 수치가 변화하는 것을 확인할 수 있다. 감격이다.
 
-
 <p align = "center">
     <img src= "https://user-images.githubusercontent.com/80762534/146068775-786a55f2-1baa-4bd7-aa06-eadc3b4f92d0.PNG">
+</p>
+
+다음과 같이 상세 정보도 볼 수 있다. 신기하다.
+
+<p align = "center">
+    <img src= "https://user-images.githubusercontent.com/80762534/146069518-e2859a19-1e7f-4636-8b20-c78f2958ab8e.PNG">
 </p>
