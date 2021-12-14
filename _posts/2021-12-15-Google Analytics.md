@@ -45,6 +45,54 @@ comments : true
 
   이 부분은 사용하는 테마마다 다를 수 있지만, config파일을 찾아보면 google analytics 관련된 부분이 있을 것이다.
 
+  ~~이제 적용이 완료됐다.~~
+
+  ... 라고 생각했지만 생각대로 작동하지 않아서 수십분간의 구글링을 통해 해결책을 찾았다.
+
+  `.config.yml`에 다음과 같은 코드를 추가했다.
+
+  ```yml
+  analytics:
+  provider               : "google-gtag" 
+                          # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id          : "G-P71SWHVVE8" #내 측정 ID
+    anonymize_ip         : # true, false (default)
+  ```
+
+  `head.html`에도 다음과 같은 코드를 추가했다.
+
+  ```html
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-P71SWHVVE8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-P71SWHVVE8');
+  </script>
+  ```
+
+  Lanyon 테마가 `head.html`에서 기본적으로 제공한 다음 코드는 주석처리 했다.
+  
+  ```html
+  {% if site.google_analytics_id %}
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', '{{ site.google_analytics_id }}', 'auto');
+    ga('send', 'pageview');
+  </script>
+  {% endif %} 
+  ```
+
 ## 4. 적용된 것 확인하기
 
-이제 블로그에 한번 들어가면, 구글 애널리틱스 보고서의 수치가 변화하는 것을 확인할 수 있다.
+수십분의 구글링 끝에 드디어 적용에 성공했다. 이제 내 블로그에 직접 한번 들어가면, 구글 애널리틱스 보고서의 수치가 변화하는 것을 확인할 수 있다. 감격이다.
+
+
+<p align = "center">
+    <img src= "https://user-images.githubusercontent.com/80762534/146068775-786a55f2-1baa-4bd7-aa06-eadc3b4f92d0.PNG">
+</p>
