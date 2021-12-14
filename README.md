@@ -8,6 +8,7 @@
   - [**Font**](#font)
   - [**Additional_Functions**](#additional_functions)
     - [**Comment**](#comment)
+    - [**favicon**](#favicon)
 
 ## **Start**
 - **Github Page 사용**
@@ -98,3 +99,16 @@
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     {% endif %}
     ```
+
+### **favicon**
+
+<p align = "center">
+    <img src= "https://user-images.githubusercontent.com/80762534/146056652-1278a143-308e-41e2-8212-d74a3989e065.png" width = 100 height = 100>
+</p>
+
+Lanyon 테마에는 기본적으로 favicon이 설정되어 있기 때문에, 단순히 favicon.ico 파일을 변경하는 것으로 favicon을 적용시킬 수 있었음. 닉네임의 k를 따서 단순히 k가 담긴 favicon으로 설정.
+
+favicon을 적용시키는 코드는 `head.html`파일의 아래와 같은 부분임.
+```html
+<link rel="shortcut icon" href="{{ '/public/favicon.ico' | absolute_url }}">
+```
