@@ -83,28 +83,6 @@ title: About my Blog (README.md)
             shortname :    "kkil-blog"
     ```
   3. disqus 홈페이지에서 Universal Code 복사 후 적절히 수정하여 `post.html`에 반영
-    ```html
-    {% if page.comments %}
-    <h2>Comments</h2>
-    <div id="disqus_thread"></div>
-    <script>
-        let PAGE_URL = "{{site.url}}{{page.url}}"
-        let PAGE_IDENTIFIER = "{{page.url}}"
-        var disqus_config = function () {
-        this.page.url = PAGE_URL;  
-        this.page.identifier = PAGE_IDENTIFIER; 
-        };
-        
-        (function() {
-        var d = document, s = d.createElement('script');
-        s.src = 'https://kkil-blog.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    {% endif %}
-    ```
 
 ### **favicon**
 
